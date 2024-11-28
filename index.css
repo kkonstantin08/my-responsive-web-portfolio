@@ -140,13 +140,8 @@ body {
 
 .grid-container {
   display: grid;
-
-  /* height: 70vh;
-	width: 70%; */
-
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-
   gap: 10px;
 }
 
@@ -167,6 +162,9 @@ body {
 }
 
 @media (max-width: 767.98px) {
+  #main-img {
+    margin-top: 20px;
+  }
   .profile-info,
   .profile-image-container {
     margin-bottom: 20px;
